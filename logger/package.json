@@ -1,0 +1,19 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "events": "^3.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
